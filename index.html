@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator app</title>
+</head>
+<body>
+    <div class="app">
+        <div class="heading flex">
+            <h1>calc</h1>
+            <div class="theme flex">
+                <h2>theme</h2>
+                <div class="theme-controll">
+                    <div class="theme-toggle flex">
+                        <div class="theme theme-1 active" data-theme="1">
+                            <span class="theme-number">1</span>
+                            <span class="circle"></span>
+                        </div>
+                        <div class="theme theme-2" data-theme="2">
+                            <span class="theme-number">2</span>
+                            <span class="circle"></span>
+                        </div>
+                        <div class="theme theme-3" data-theme="3">
+                            <span class="theme-number">3</span>
+                            <span class="circle"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calculator">
+            <div class="screen flex">
+                <div class="flex">
+                    <div class="previous"></div>
+                    <div class="operation-sign"></div>
+                </div>
+                <div class="next"></div>
+            </div>
+            <div class="keyboard">
+                <div class="row">
+                    <button class="number btn">7</button>
+                    <button class="number btn">8</button>
+                    <button class="number btn">9</button>
+                    <button class="delete btn">DEL</button>
+                </div>
+                <div class="row">
+                    <button class="number btn">4</button>
+                    <button class="number btn">5</button>
+                    <button class="number btn">6</button>
+                    <button class="operation btn">+</button>
+                </div>
+                <div class="row">
+                    <button class="number btn">1</button>
+                    <button class="number btn">2</button>
+                    <button class="number btn">3</button>
+                    <button class="operation btn">-</button>
+                </div>
+                <div class="row">
+                    <button class="number btn">.</button>
+                    <button class="number btn">0</button>
+                    <button class="operation btn">/</button>
+                    <button class="operation btn">x</button>
+                </div>
+                <div class="row">
+                    <button class="reset btn">RESET</button>
+                    <button class="equal btn">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
